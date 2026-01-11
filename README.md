@@ -16,7 +16,7 @@ This repository provides tools to:
 | Method | Test Accuracy | Test AUROC | Notes |
 |--------|--------------|------------|-------|
 | Random Baseline | ~50% | ~50% | Sanity check |
-| LLM-as-Judge | 60-75% | - | Black-box baseline |
+| LLM-as-Judge | 60-75% | 0.692 | Black-box baseline |
 | **Diff-in-Means** | **85-95%** | **0.90-0.98** | Best performing |
 | Linear Probe | 80-92% | 0.88-0.96 | Comparable to diff-in-means |
 
